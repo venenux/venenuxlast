@@ -1,0 +1,10 @@
+zenity xserver-xorg-input-all xserver-xorg-video-all
+tumbler
+gmrun terminator mplayer ffmpeg sakura
+gimp viewnior scrot perl-modules
+obmenu obconf lxappearance nitrogen
+zsh build-essential command-not-found clipit
+xscreensaver
+virtualbox xfonts-terminus
+gnupg cryptsetup pinentry-curses
+task-gnome-flashback-desktop

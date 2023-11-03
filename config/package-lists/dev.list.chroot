@@ -1,0 +1,1 @@
+cmake build-essential perl-doc qtcreator php8.2 apache2 mariadb-server

@@ -1,0 +1,15 @@
+Debian VENENUX normal users DISK RESCUE release
+
+default root:root
+user general:general
+
+All required documentation is available at https://gitea.com/venenux/venenux
+
+All software packages included in this medium and that together forms the distribution
+named VENENUX GNU/Linux is free software, licenses for each are specified 
+in /usr/share/doc/*/copyright.
+
+VENENUX GNU/Linux its a complete Linux-like based operating system, focused 
+on multimedia and entertaiment that can be used as main system for home usage, 
+development (dvd comes with all), event production multimedia environment.
+

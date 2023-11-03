@@ -1,0 +1,4 @@
+gtk-theme-name = "venenux"
+gtk-xft-antialias=0
+gtk-xft-hinting=0
+gtk-xft-rgba="none"
