@@ -1,1 +1,14 @@
 cache/
+.build/
+build.log
+chroot/
+config/binary
+config/bootstrap
+config/chroot
+config/common
+config/hooks/live/
+!config/hooks/live/0999-password-root.hook.chroot
+config/hooks/normal/
+!config/hooks/normal/0999-password-root.hook.chroot
+config/package-lists/live.list.chroot
+config/source
