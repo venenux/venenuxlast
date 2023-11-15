@@ -1,6 +1,9 @@
 cache/
 .build/
 build.log
+binary/
+binary.*
+chroot.*
 chroot/
 config/binary
 config/bootstrap
@@ -12,3 +15,7 @@ config/hooks/normal/
 !config/hooks/normal/0999-password-root.hook.chroot
 config/package-lists/live.list.chroot
 config/source
+config/packages.binary
+config/packages.chroot
+live-image-*
+source
