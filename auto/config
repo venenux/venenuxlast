@@ -9,13 +9,13 @@ lb config noauto \
 	--mode debian \
 	--linux-flavours "amd64" \
 	--linux-packages "linux-image linux-headers" \
-	--firmware-chroot true  --firmware-binary true \
+	--firmware-chroot true  --firmware-binary false \
 	--source false \
 	--system live \
 	--debian-installer-gui true \
 	--debian-installer-distribution bookworm \
-	--archive-areas "main contrib non-free" \
-	--security true --updates true \
+	--archive-areas "main contrib non-free non-free-firmware" \
+	--security true --updates true --backports true \
 	--mirror-bootstrap "http://ftp.us.debian.org/debian" \
 	--mirror-binary "http://ftp.us.debian.org/debian" \
 	--mirror-chroot "http://ftp.us.debian.org/debian" \
@@ -24,18 +24,18 @@ lb config noauto \
 	--parent-mirror-binary "http://ftp.us.debian.org/debian" \
 	--parent-mirror-debian-installer "http://ftp.us.debian.org/debian" \
 	--mirror-debian-installer "http://ftp.us.debian.org/debian" \
-	--debootstrap-options "--include=aptitude,apt-transport-https,ca-certificates,openssl,courier-mta --exclude=exim4,exim4-config,exim4-base,exim4-daemon-heavy,exim4-daemon-light" \
+	--debootstrap-options "--include=aptitude,apt-transport-https,ca-certificates,openssl --exclude=exim4,exim4-config,exim4-base,exim4-daemon-heavy,exim4-daemon-light" \
 	--apt-recommends false --apt-secure false --apt-source-archives false \
 	--apt-options "--yes --force-yes --allow-unauthenticated" \
 	--checksums none \
 	--iso-publisher "Debian VenenuX vegnuli@googlegrous.com http://vegnuli.sourceforge.io" \
-	--iso-application "Debian 2023 VenenuX `date +'%Y%m%d'`" \
-	--iso-volume "Debian `date +'%Y%m%d'` VenenuX amd64" \
+	--iso-application "Debian VenenuX `date +'%Y'`" \
+	--iso-volume "Debian 12 VenenuX `date +'%Y%m%d'` amd64" \
 	--binary-images iso-hybrid \
 	--memtest memtest86+ \
 	--initramfs live-boot --initramfs-compression gzip --win32-loader false \
 	--quiet --uefi-secure-boot auto  \
-	--bootappend-live " boot=live config components autologin xautologin iomem=relaxed " \
+	--bootappend-live " boot=live config components autologin xautologin iomem=relaxed vga=normal" \
 	--bootappend-live-failsafe "boot=live components noapic noapm nodma nomce nolapic nomodeset nosmp nosplash vga=normal fbcon=rotate:1 acpi_enforce_reources=lax iomem=relaxed pci=noacpi,assign-busses reboot=cold,hard " \
 	--bootappend-install "nomce nomodeset nosplash acpi_enforce_reources=lax iomem=relaxed reboot=cold,hard" \
 	"${@}"
