@@ -1,0 +1,13 @@
+zsh build-essential command-not-found cmake php apache2 mariadb-server devscripts
+
+gnupg cryptsetup pinentry-curses
+
+codium-insiders
+
+meld
+
+git-flow git-svn svn2git subversion-tools mercurial
+
+giggle giggle-personal-details-plugin giggle-terminal-view-plugin
+
+nodejs

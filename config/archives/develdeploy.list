@@ -1,0 +1,11 @@
+
+deb [trusted=yes] http://download.opensuse.org/repositories/home:/vegnuli:/deploy-vnx2/Debian_12/ /
+
+deb [trusted=yes] https://packages.sury.org/php/ bookworm main
+
+deb [trusted=yes] https://deb.nodesource.com/node_18.x/ bookworm main
+deb [trusted=yes] https://deb.nodesource.com/node_20.x/ bookworm main
+
+deb [trusted=yes] https://paulcarroty.gitlab.io/vscodium-deb-rpm-repo/debs vscodium main
+
+deb [trusted=yes] http://download.opensuse.org/repositories/home:/vegnuli:/voip/Debian_12/ /
