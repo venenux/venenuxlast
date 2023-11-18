@@ -1,3 +1,7 @@
+Package: *
+Pin: origin download.opensuse.org
+Pin-Priority: 501
+
 Package: jwm jgmenu
 Pin: origin download.opensuse.org
 Pin-Priority: 1001

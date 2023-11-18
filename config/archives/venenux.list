@@ -1,7 +1,5 @@
 deb [trusted=yes] http://download.opensuse.org/repositories/home:/vegnuli:/system-vnx2/Debian_12/ /
 deb [trusted=yes] http://download.opensuse.org/repositories/home:/vegnuli:/desktop-vnx2/Debian_12/ /
-#deb [trusted=yes] http://download.opensuse.org/repositories/home:/vegnuli:/deploy-vnx2/Debian_12/ /
 #deb [trusted=yes] http://download.opensuse.org/repositories/home:/vegnuli:/multimedia-vnx2/Debian_12/ /
 deb [trusted=yes] http://download.opensuse.org/repositories/home:/vegnuli:/emusgames2/Debian_12/ /
 deb [trusted=yes] http://download.opensuse.org/repositories/home:/vegnuli:/internet-vnx2/Debian_12/ /
-#deb [trusted=yes] http://download.opensuse.org/repositories/home:/vegnuli:/voip/Debian_12/ /

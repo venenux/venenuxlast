@@ -1,2 +1,2 @@
-deb http://www.deb-multimedia.org bookworm main non-free
-deb http://www.deb-multimedia.org bookworm-backports main
+deb [trusted=yes] http://www.deb-multimedia.org bookworm main non-free
+deb [trusted=yes] http://www.deb-multimedia.org bookworm-backports main
