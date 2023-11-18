@@ -1,3 +1,5 @@
+pm-utils fdpowermon acpi-fakekey laptop-mode-tools
+
 xserver-xorg-input-all lightdm xserver-xorg
 
 xserver-xorg-video-all xserver-xorg xserver-xorg-video-intel xserver-xorg-video-mga xserver-xorg-video-r128 xserver-xorg-video-openchrome xserver-xorg-legacy
@@ -8,9 +10,9 @@ gtk2-engines-pixbuf darkcold-gtk-theme adwaita-icon-theme qt5-gtk2-platformtheme
 
 network-manager-gnome
 
-openbox obsession gmrun scrot xsel terminator obconf lxappearance lxappearance-obconf lxhotkey-openbox lxhotkey-data nitrogen xscreensaver menu-xdg menu menu-l10n
+openbox obsession gprename gmrun scrot xsel terminator obconf lxappearance lxappearance-obconf lxhotkey-openbox lxhotkey-data nitrogen xscreensaver menu-xdg menu menu-l10n
 
-jwm fdpowermon jgmenu xsel galculator mousepad parcellite usermode numlockx sakura
+jwm jgmenu xsel galculator mousepad parcellite usermode numlockx sakura
 
 lxde-core lxinput lxrandr lxsession-edit lxsession-default-apps lxpolkit lxhotkey parcellite
 
