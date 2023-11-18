@@ -1,0 +1,14 @@
+live-boot
+live-tools
+live-config
+rsync
+wget
+eject
+procps
+perl
+locales
+pciutils
+doas
+opendoas
+doas-sudo-shim
+user-setup
