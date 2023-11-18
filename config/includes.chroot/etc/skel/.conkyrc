@@ -4,12 +4,6 @@
 # of keeping the documentation more maintainable.
 # Check http://conky.sf.net for an up-to-date-list.
 #
-# For ideas about how to modify conky, please see:
-# http://crunchbanglinux.org/forums/topic/59/my-conky-config/
-#
-# For help with conky, please see:
-# http://crunchbanglinux.org/forums/topic/2047/conky-help/
-#
 # Enjoy! 
 ##############################################
 # Settings
@@ -70,11 +64,6 @@ ${top name 6} $alignr ${top pid 6} ${top cpu 6}
 ${top name 7} $alignr ${top pid 7} ${top cpu 7}
 ${top name 8} $alignr ${top pid 8} ${top cpu 8}
 ${top name 9} $alignr ${top pid 8} ${top cpu 9}
-
-Inbound $alignr ${downspeed eth0} kb/s
-${downspeedgraph eth0}
-Outbound $alignr ${upspeed eth0} kb/s
-${upspeedgraph eth0}
 
 Alt+F2$alignr Run Dialog
 Alt+F3$alignr Alt Menu

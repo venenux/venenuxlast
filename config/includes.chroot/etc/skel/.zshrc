@@ -85,6 +85,5 @@ if [[ $( date +%A ) != "Friday" ]]; then echo "Its not Friday :("; else echo "Ye
 . /etc/zsh_command_not_found
 
 alias -r rf="rm -rf"
-alias x="sudo"
 alias -g g="| grep"
 alias -g l="| less"
