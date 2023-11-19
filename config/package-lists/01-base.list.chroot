@@ -12,7 +12,7 @@ doas
 opendoas
 doas-sudo-shim
 user-setup
-acpi-suppot
+acpi-support
 open-vm-tools
 
 mrename
@@ -20,7 +20,7 @@ mlocate
 cowsay
 figlet
 
-aria2c
+aria2
 
 cpio
 arj
