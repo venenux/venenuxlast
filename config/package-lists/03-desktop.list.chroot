@@ -1,6 +1,6 @@
 pm-utils fdpowermon acpi-fakekey laptop-mode-tools
 
-xserver-xorg-input-all lightdm xserver-xorg
+xserver-xorg-input-all lightdm xserver-xorg xvkbd
 
 xserver-xorg-video-all xserver-xorg xserver-xorg-video-intel xserver-xorg-video-mga xserver-xorg-video-r128 xserver-xorg-video-openchrome xserver-xorg-legacy
 

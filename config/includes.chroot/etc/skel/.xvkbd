@@ -1,0 +1,12 @@
+#keyboard small
+#quick_modifiers 1
+#shift_lock 0
+#altgr_lock 0
+#modifiers_lock 0
+#key_click 1
+#autoclick 0
+#always_on_top 1
+#wm_toolbar 1
+#jump_pointer 1
+#insert_blank_after_completion 1
+#integrate_completion_panel 1
