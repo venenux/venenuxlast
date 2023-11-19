@@ -1,0 +1,5 @@
+- [💻 VenenuX](http://vegnuli.sourceforge.io)
+- [💽 Livecd](README.md)
+- [📦 Debs](https://build.opensuse.org/project/show/home:vegnuli)
+- [🗄 Sources](https://codeberg.org/venenux)
+- [📲 Social](https://t.me/vegnuli)
