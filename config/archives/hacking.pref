@@ -1,6 +1,6 @@
 Package: *
 Pin: origin http.kali.org
-Pin-Priority: 499
+Pin-Priority: -1
 
 Package: aircrack-ng
 Pin: origin http.kali.org
