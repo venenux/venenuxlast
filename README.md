@@ -53,3 +53,7 @@ below the specific documentation of this and how to make your own iso:
 * almost a dual core machine
 * almost 4 gigs of RAM
 
+## what is included
+
+By example this included the anydesk and metasploit-framework by default XD
+
