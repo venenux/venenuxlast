@@ -23,7 +23,7 @@ partimage
 fsarchiver
 ext4magic
 fatcat
-exfat-utils
+exfatprogs
 zerofree
 recoverdm
 ddrescueview
@@ -55,7 +55,7 @@ hydra
 #-software-management
 rkhunter
 unhide
-jhon
+john
 pdfcrack
 rarcrack
 sipcrack
