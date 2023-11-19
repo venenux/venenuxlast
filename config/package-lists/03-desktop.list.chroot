@@ -23,3 +23,6 @@ gxmessage zathura zathura-cb zathura-djvu zathura-ps gucharmap notification-daem
 gimp viewnior perl-modules
 
 telegram-desktop mplayer smplayer ffmpeg mediainfo-gui pidgin purple-discord purple-facebook pidgin-matrix
+
+qemu-guest-agent virtualbox-guest-x11 open-vm-tools-desktop xserver-xorg-video-vmware
+
