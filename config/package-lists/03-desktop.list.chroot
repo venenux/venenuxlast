@@ -8,7 +8,7 @@ xfonts-terminus xfonts-terminus-dos xfonts-terminus-oblique xfonts-intl-arabic x
 
 gtk2-engines-pixbuf darkcold-gtk-theme adwaita-icon-theme qt5-gtk2-platformtheme qt5-gtk-platformtheme libgnomecanvas2-0
 
-network-manager-gnome
+network-manager-gnome hardinfo
 
 openbox obsession gprename gmrun scrot xsel terminator obconf lxappearance lxappearance-obconf lxhotkey-openbox lxhotkey-data nitrogen xscreensaver menu-xdg menu menu-l10n
 
