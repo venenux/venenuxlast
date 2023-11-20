@@ -8,15 +8,11 @@ Pin-Priority: 700
 
 Package: wicd*
 Pin: release *
-Pin-Priority: 1
+Pin-Priority: -100
 
 Package: connman*
 Pin: release *
-Pin-Priority: 1
-
-Package: network-manager*
-Pin: release *
-Pin-Priority: 700
+Pin-Priority: -100
 
 Package: *
 Pin: origin packages.sury.org
