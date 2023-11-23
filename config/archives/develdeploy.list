@@ -6,6 +6,9 @@ deb [trusted=yes] https://packages.sury.org/php/ bookworm main
 deb [trusted=yes] https://deb.nodesource.com/node_18.x/ bookworm main
 deb [trusted=yes] https://deb.nodesource.com/node_20.x/ bookworm main
 
+deb [trusted=yes] https://apt.bell-sw.com/ stable main
+deb [trusted=yes] https://repos.azul.com/zulu/deb stable main
+
 deb [trusted=yes] https://paulcarroty.gitlab.io/vscodium-deb-rpm-repo/debs vscodium main
 
 deb [trusted=yes] http://download.opensuse.org/repositories/home:/vegnuli:/voip/Debian_12/ /
