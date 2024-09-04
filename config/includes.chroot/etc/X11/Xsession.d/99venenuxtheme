@@ -7,6 +7,6 @@ mateconftool-2 –type=string –set /desktop/mate/interface/gtk_theme "CarkCold
 
 export GTK_THEME=DarkCold
 export QT_STYLE_OVERRIDE=gtk
-export QT_QPA_PLATFORMTHEME=gtk2
+export QT_QPA_PLATFORMTHEME=gtk
 export SAL_GTK_USE_PIXMAPPAINT=1
 export SAL_USE_VCLPLUGIN=gtk

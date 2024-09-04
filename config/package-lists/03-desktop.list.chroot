@@ -6,7 +6,7 @@ xserver-xorg-video-all xserver-xorg xserver-xorg-video-intel xserver-xorg-video-
 
 xfonts-terminus xfonts-terminus-dos xfonts-terminus-oblique xfonts-intl-arabic xfonts-intl-asian xfonts-intl-chinese xfonts-intl-european xfonts-intl-japanese
 
-gtk2-engines-pixbuf darkcold-gtk-theme adwaita-icon-theme qt5-gtk2-platformtheme qt5-gtk-platformtheme libgnomecanvas2-0
+gtk2-engines-pixbuf gtk3-nocsd darkcold-gtk-theme adwaita-icon-theme qt5-gtk2-platformtheme qt5-gtk-platformtheme libgnomecanvas2-0
 
 network-manager-gnome hardinfo
 
