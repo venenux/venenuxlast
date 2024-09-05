@@ -16,6 +16,8 @@ htop
 fdisk
 sdparm
 hdparm
+nvme-cli
+smartmontools
 clonezilla
 testdisk
 partclone
