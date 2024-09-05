@@ -14,6 +14,10 @@ sysstat
 htop
 #-device-disk-management
 fdisk
+udisks2
+udisks2-zram
+udisks2-lvm2
+udisks2-btrfs
 sdparm
 hdparm
 nvme-cli

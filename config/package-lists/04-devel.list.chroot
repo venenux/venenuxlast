@@ -1,4 +1,4 @@
-zsh build-essential command-not-found cmake php apache2 mariadb-server devscripts
+zsh build-essential command-not-found cmake devscripts
 
 gnupg cryptsetup pinentry-curses
 

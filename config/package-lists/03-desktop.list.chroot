@@ -8,7 +8,7 @@ xfonts-terminus xfonts-terminus-dos xfonts-terminus-oblique xfonts-intl-arabic x
 
 gtk2-engines-pixbuf gtk3-nocsd darkcold-gtk-theme adwaita-icon-theme qt5-gtk2-platformtheme qt5-gtk-platformtheme libgnomecanvas2-0
 
-network-manager-gnome hardinfo
+network-manager-gnome hardinfo gvfs gvfs-fuse gvfs-backends
 
 openbox obsession gprename gmrun scrot xsel terminator obconf lxappearance lxappearance-obconf lxhotkey-openbox lxhotkey-data nitrogen xscreensaver menu-xdg menu menu-l10n
 
@@ -16,13 +16,11 @@ jwm jgmenu xsel galculator mousepad parcellite usermode numlockx sakura
 
 lxde-core lxinput lxrandr lxsession-edit lxsession-default-apps lxpolkit lxhotkey parcellite
 
-#task-gnome-flashback-desktop
-
 gxmessage zathura zathura-cb zathura-djvu zathura-ps gucharmap notification-daemon
 
 gimp viewnior perl-modules
 
-telegram-desktop mplayer smplayer ffmpeg mediainfo-gui pidgin purple-discord purple-facebook pidgin-matrix
+telegram-desktop mplayer smplayer ffmpeg mediainfo mediainfo-gui pidgin purple-discord purple-facebook pidgin-matrix
 
 qemu-guest-agent virtualbox-guest-x11 open-vm-tools-desktop xserver-xorg-video-vmware
 
