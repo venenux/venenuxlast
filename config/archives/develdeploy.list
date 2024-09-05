@@ -11,4 +11,4 @@ deb [trusted=yes] https://repos.azul.com/zulu/deb stable main
 
 deb [trusted=yes] https://paulcarroty.gitlab.io/vscodium-deb-rpm-repo/debs vscodium main
 
-deb [trusted=yes] http://download.opensuse.org/repositories/home:/vegnuli:/voip/Debian_12/ /
+#deb [trusted=yes] http://download.opensuse.org/repositories/home:/vegnuli:/voip/Debian_12/ /
