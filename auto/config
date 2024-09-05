@@ -35,7 +35,7 @@ lb config noauto \
 	--memtest memtest86+ \
 	--initramfs live-boot --initramfs-compression gzip --win32-loader false \
 	--quiet --uefi-secure-boot auto  \
-	--bootappend-live " boot=live config components autologin xautologin iomem=relaxed vga=normal net.ifnames=0" \
-	--bootappend-live-failsafe "boot=live components noapic noapm nodma nomce nolapic nomodeset nosmp nosplash noeject vga=normal fbcon=rotate:1 acpi_enforce_reources=lax iomem=relaxed pci=noacpi,assign-busses reboot=cold,hard net.ifnames=0" \
-	--bootappend-install "nomce nomodeset nosplash acpi_enforce_reources=lax iomem=relaxed reboot=cold,hard" \
+	--bootappend-live " boot=live config components autologin xautologin iomem=relaxed vga=normal net.ifnames=0 vsyscall=emulate" \
+	--bootappend-live-failsafe "boot=live components noapic noapm nodma nomce nolapic nomodeset nosmp nosplash noeject vga=normal fbcon=rotate:1 acpi_enforce_reources=lax iomem=relaxed pci=noacpi,assign-busses reboot=cold,hard net.ifnames=0 vsyscall=emulate" \
+	--bootappend-install "nomce nomodeset nosplash acpi_enforce_reources=lax iomem=relaxed reboot=cold,hard vsyscall=emulate" \
 	"${@}"
