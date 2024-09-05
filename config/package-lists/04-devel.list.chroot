@@ -2,7 +2,7 @@ zsh build-essential command-not-found cmake php apache2 mariadb-server devscript
 
 gnupg cryptsetup pinentry-curses
 
-codium-insiders 
+codium
 
 meld dia dia2code dia-shapes dia-rib-network
 
