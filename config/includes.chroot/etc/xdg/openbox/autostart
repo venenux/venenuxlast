@@ -1,0 +1,27 @@
+
+if which nitrogen >/dev/null; then
+  nitrogen --restore /usr/share/backgrounds/ &
+fi
+
+if which fbpanel >/dev/null; then
+    fbpanel -p default &
+else
+    if which lxpanel >/dev/null; then
+        lxpanel &
+    fi
+fi
+
+if which xscreensaver >/dev/null; then
+    xscreensaver -no-splash &
+fi
+
+xset r rate 250 25 &
+
+xset b on &
+
+if which mate-settings-daemon >/dev/null; then
+    mate-settings-daemon &
+fi
+if which caja >/dev/null; then
+    caja --force-desktop &
+fi
