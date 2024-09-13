@@ -1,4 +1,6 @@
-virtualbox
 firefox-nightly
+libreoffice-gnome
+libreoffice-gtk3
 libreoffice-calc
 libreoffice-writer
+python3-uno
