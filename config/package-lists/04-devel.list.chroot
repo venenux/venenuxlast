@@ -4,9 +4,7 @@ gnupg cryptsetup pinentry-curses
 
 codium
 
-meld dia dia2code dia-shapes dia-rib-network
-
-git-flow git-svn svn2git subversion-tools mercurial
+meld git-flow git-svn svn2git subversion-tools mercurial
 
 giggle giggle-personal-details-plugin giggle-terminal-view-plugin
 
